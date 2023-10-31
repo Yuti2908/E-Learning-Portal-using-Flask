@@ -2,7 +2,9 @@
  A Simple E-Learning website made using Flask and HTML and Bootstrap.
 It includes portals for both students and teachers where students can acess or enroll into courses and teachers can create, update or delete courses and check out students enrolled into their courses.
 
-Demo for this project can be check out here: ![Demo Video](https://drive.google.com/file/d/1L_aoeOAvo1EoxxEJea02WHpomVsnfVcr/view?usp=sharing)
+Demo for this project can be check out here: 
+
+https://drive.google.com/file/d/1L_aoeOAvo1EoxxEJea02WHpomVsnfVcr/view?usp=sharing
 
 You can register/login from the home page. The registration system has a 2 step verification system, where once you enter your details like First name, Last name, Email, password and if you are a teacher or not. Once these details are entered you will 
 get a mail for OTP, which you have to enter in the portal. This was made using Flask-Mail.
