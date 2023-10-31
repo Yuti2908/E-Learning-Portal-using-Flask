@@ -16,10 +16,10 @@ app.config['MAIL_SERVER'] = 'smtp.gmail.com'
 app.config['MAIL_PORT'] = 465
 app.config['MAIL_USE_SSL'] = True
 app.config['MAIL_USERNAME'] = 'p11diyay@gmail.com' 
-app.config['MAIL_PASSWORD'] = 'nvyu nirr isjv famc'
+app.config['MAIL_PASSWORD'] = 'add password given by passkey for your gmail account, dont use your account password'
 app.config['MAIL_DEBUG'] = True
 mail = Mail(app)
-stripe.api_key = "sk_test_51O4xZMSIpcgvxknDPOiyGc11th7gM3poSjwVufDRQRomFbdyNVt67lhZwaUKoNEKdqJAHP0fwSzrnMv1wcEp0gBt00hoJlac6T"
+stripe.api_key = "add the Stripe API key here"
 
 def get_courses():
     return Course.query.all()
